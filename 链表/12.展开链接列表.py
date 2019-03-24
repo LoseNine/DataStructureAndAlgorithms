@@ -34,7 +34,7 @@ class MergeList:
         while tmp!=None:
             print(tmp.data)
             tmp=tmp.down
-            print("\n")
+            #print("\n")
 if __name__ == '__main__':
     L=MergeList()
     L.head=L.insert(L.head,31)
